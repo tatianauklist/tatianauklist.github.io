@@ -46,7 +46,6 @@
 </ul>
 <h4><span>Program Coordinator, World Affairs Council</span> | <span>July 2021 - February 2022</span></h4>
 <p4>In service to Greater Houston as a global city, the Council promotes understanding of the world - it's people, politics, economics, and cultures - to enable the Houston community to participate more effectively in the global world. </p4>
-</br>
 <ul>
 <li>Collaborated with the Chief Program Officer and marketing department to impliment new streaming software and processses that decreased staff user error.</li>
 <li>Spearheaded strategic partnerships with universities and local businesses to increase membership, member experiences and satisfaction.</li>
