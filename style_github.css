@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Permanent Marker';
     color: #E1D9D1;
 }
 .tagline{
@@ -8,10 +8,14 @@ h1{
     text-align: center;
     padding: 2%;
     color: #E1D9D1;
+    font-family: 'Indie Flower';
+    font-size: 18px;
 }
 img{
     border: 2px solid black;
     border-radius:50%;
+    width: 25%;
+    height: 50%;
 }
 a:link{
     color: #E1D9D1;;
@@ -28,8 +32,8 @@ a:hover{
 }
 body{
     margin: 20px auto;
-    font-family: 'Courier New';
-    background: #666;
+    font-family: 'Indie Flower';
+    background: #030300;
 }
 .bio h2{
     color: darkgreen;
