@@ -1,4 +1,36 @@
-*{
-    background-image: url("https://drive.google.com/uc?export=view&id=1jzW-T3O3ILMN6BxRCy4zWLY2VrUYXwUe");
-}
+body{
+    background-image: url("https://www.photos-public-domain.com/wp-content/uploads/2012/01/crumpled-white-paper-texture.jpg");
+    font-family: 'Indie Flower';
 
+}
+h1{
+    font-family: 'Indie Flower';
+    text-align: center;
+}
+h3{
+    margin: 5%;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 5%;
+    font-weight: bold;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    border-radius: 10%;
+    width: 109%;
+}
+.image{
+    flex-basis:40%;
+}
+.text{
+    font-size: 10px;
+    display: block;
+    width: 40%;
+}
