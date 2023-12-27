@@ -7,37 +7,57 @@ h1{
     font-family: 'Indie Flower';
     text-align: center;
 }
-h3{
-    margin: 5%;
-    text-align: center;
+*{
+    margin:0;
+    padding:0;
 }
-p{
-    font-size: 16px;
-    width: 60%;
-    height: 150px;
+body{
+    display: flex;
+    justify-content: center;
 }
-img{
-    padding:10px;
-    border-radius: 30%;
+.timeline{
+    margin:20px auto;
+    padding:20px;
 }
-.hillel img{
-    padding: 10px;
-    float: right;
+.card{
+    position: relative;
+    max-width: 400px;
+}
+.card:nth-child(odd){
+    padding: 30px 0 30px 30px;
+}
+.card:nth-child(even){
+    padding: 30px 30px 30px 0;
+}
+.card::before{
+    content: "";
+    position: absolute;
     width: 50%;
+    border:solid darkgreen;
 }
-.hillel p{
-    text-align: right;
-    margin-left: 30%;
+.card:nth-child(odd)::before{
+    left:0px;
+    top: -4.5px;
+    bottom: -4.5px;
+    border-width: 5px 0 5px 5px;
+    border-radius: 50px 0 0 50px;
 }
-.college p{
-    text-align: left;
-    margin-left: 20%;
-    margin-bottom: 5%;
-    padding: 20px;
-    padding-bottom: 20%;
+.card:nth-child(even)::before{
+    right:0;
+    top:0;
+    bottom:0;
+    border-width: 5px 5px 5px 0;
+    border-radius: 0 50px 50px 0;
 }
-.college img{
-    padding: 10px;
-    float: left;
-    width: 50%;
+.card:first-child::before{
+    border-top:0;
+    border-top-left-radius: 0;
+}
+.card:last-child:nth-child(odd)::before{
+    border-bottom: 0;
+    border-top-left-radius: 0;
+}
+.card:last-child:nth-child(even)::before{
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
 }
