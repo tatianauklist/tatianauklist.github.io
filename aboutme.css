@@ -60,3 +60,106 @@ z-index: 1;
     left: -12px;
     bottom: -2px;
 }
+.main-timeline .timeline-content{
+    text-align: center;
+    margin-top: 8px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.main-timeline .timeline-content::before{
+    content:"";
+    width:100%;
+    height: 5px;
+    background: darkgreen;
+    position: absolute;
+    top: 88px;
+    left:0;
+    z-index: 1;
+}
+.main-timeline .circle{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #fff;
+    border: 8px solid darkseagreen;
+    float: left;
+    margin-right: 25px;
+    position: relative;
+}
+.main-timeline .circle::before{
+    content:"";
+    width:26px;
+    height: 30px;
+    margin: auto;
+    position:absolute;
+    background: darkseagreen;
+    top:0;
+    right: -33px;
+    bottom:0;
+    z-index: 1;
+    box-shadow: inset 7px 0 9px -7px darkgreen;
+}
+.main-timeline .circle span{
+    display: block;
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    line-height: 268px;
+    font-size: 80px;
+    color: #454344;
+}
+.main-timeline .circle span::before,
+.main-timeline .circle span::after{
+    content:"";
+    width: 28px;
+    height: 50px;
+    background: darkseagreen;
+    border-radius: 0 0 0 21px;
+    margin: auto;
+    position:absolute;
+    top: -54px;
+    right: -33px;
+    bottom:0;
+    z-index: 1;
+}
+.main-timeline .circle span::after{
+    border-radius: 21px 0 0 0;
+    top:0;
+    bottom: -56px;
+}
+.main-timeline .circle .img{
+    vertical-align: initial;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.main-timeline .content{
+    display: table;
+    padding-right: 40px;
+    position: relative;
+}
+.main-timeline .era{
+    display:block;
+    padding:10px;
+    margin: 10px 0 50px 0;
+    border-radius: 7px;
+    font-size: 25px;
+}
+.main-timeline .title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top:0;
+}
+.main-timeline .description{
+    font-size: 14px;
+    text-align: justify;
+}
+.main-timeline .icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 4px solid rgba(211,207,205,1);
+    position: absolute;
+    top: 78px;
+    right: -14px;
+}
